@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<title>CFDT Cattenom - Actualité</title>
+ 
+<style>
+:root{
+--cfdt-orange:#f58220;
+--cfdt-dark:#222;
+--cfdt-light:#f5f5f5;
+--cfdt-success:#28a745;
+--cfdt-warning:#ffc107;
+--cfdt-danger:#dc3545;
+}
+ 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+ 
+body{
+font-family:Arial, Helvetica, sans-serif;
+line-height:1.6;
+color:#333;
+background:#fafafa;
+}
+ 
+.container{
+width:95%;
+max-width:1200px;
+margin:auto;
+}
+ 
+header{
+background:linear-gradient(135deg,var(--cfdt-orange),#ff9b4a);
+color:white;
+padding:50px 20px;
+text-align:center;
+}
+ 
+header h1{
+font-size:3rem;
+margin-bottom:15px;
+}
+ 
+header p{
+font-size:1.2rem;
+}
+ 
+.badge{
+display:inline-block;
+margin-top:15px;
+background:white;
+color:var(--cfdt-orange);
+padding:8px 15px;
+border-radius:25px;
+font-weight:bold;
+}
+ 
+.hero{
+padding:40px 0;
+}
+ 
+.hero img{
+width:100%;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+ 
+.section{
+padding:50px 0;
+}
+ 
+.section h2{
+color:var(--cfdt-orange);
+margin-bottom:25px;
+border-left:6px solid var(--cfdt-orange);
+padding-left:12px;
+}
+ 
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+ 
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+ 
+.card h3{
+margin-bottom:10px;
+}
+ 
+.card.green{
+border-top:6px solid var(--cfdt-success);
+}
+ 
+.card.orange{
+border-top:6px solid var(--cfdt-warning);
+}
+ 
+.card.red{
+border-top:6px solid var(--cfdt-danger);
+}
+ 
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+text-align:center;
+}
+ 
+.stat{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+ 
+.stat-number{
+font-size:3rem;
+font-weight:bold;
+color:var(--cfdt-orange);
+}
+ 
+.analysis{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+ 
+.actions ul{
+list-style:none;
+}
+ 
+.actions li{
+background:white;
+margin-bottom:10px;
+padding:15px;
+border-left:5px solid var(--cfdt-orange);
+border-radius:8px;
+}
+ 
+.cta{
+background:var(--cfdt-orange);
+text-align:center;
+color:white;
+padding:60px 20px;
+}
+ 
+.cta h2{
+color:white;
+border:none;
+margin-bottom:20px;
+}
+ 
+.btn{
+display:inline-block;
+background:white;
+color:var(--cfdt-orange);
+text-decoration:none;
+padding:15px 30px;
+border-radius:40px;
+font-weight:bold;
+margin:10px;
+transition:0.3s;
+}
+ 
+.btn:hover{
+transform:translateY(-3px);
+}
+ 
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+}
+ 
+@media(max-width:768px){
+ 
+header h1{
+font-size:2rem;
+}
+ 
+.stat-number{
+font-size:2.2rem;
+}
+ 
+}
+</style>
+ 
+</head>
+<body>
+ 
+<header>
+ 
+<h1>Effectifs : où en sommes-nous ?</h1>
+ 
+<p>Communication CFDT Cattenom - Septembre 2026</p>
+ 
+<span class="badge">3 minutes de lecture</span>
+ 
+</header>
+ 
+<section class="hero container">
+ 
+<img src="images/equipe.jpg" alt="Photo terrainsection container">
+ 
+<h2>L'essentiel en 30 secondes</h2>
+ 
+<div class="cards">
+ 
+<div class="card green">
+<h3>✅ Ce qui avance</h3>
+<p>
+Les recrutements se poursuivent sur plusieurs métiers.
+</p>
+</div>
+ 
+<div class="card orange">
+<h3>⚠️ Ce qui inquiète</h3>
+<p>
+Plusieurs équipes restent sous tension malgré les annonces.
+</p>
+</div>
+ 
+<div class="card red">
+<h3>🎯 Ce que demande la CFDT</h3>
+<p>
+Des embauches pérennes et une meilleure anticipation.
+</p>
+</div>
+ 
+</div>
+ 
+</section>
+ 
+<section class="section container">
+ 
+<h2>Les chiffres clés</h2>
+ 
+<div class="stats">
+ 
+<div class="stat">
+<div class="stat-number">120</div>
+<p>Embauches annoncées</p>
+</div>
+ 
+<div class="stat">
+<div class="stat-number">85</div>
+<p>Embauches réalisées</p>
+</div>
+ 
+<div class="stat">
+<div class="stat-number">35</div>
+<p>Postes restants</p>
+</div>
+ 
+</div>
+ 
+</section>
+ 
+<section class="section container">
+ 
+<h2>Notre analyse</h2>
+ 
+<div class="analysis">
+ 
+<p>
+Malgré les annonces positives, les équipes continuent de faire
+face à une charge importante. Les difficultés de recrutement
+ne doivent pas conduire à dégrader les conditions de travail.
+</p>
+ 
+<br>
+ 
+<p>
+La CFDT considère qu'il est indispensable de disposer d'une
+vision pluriannuelle des besoins afin d'éviter que les mêmes
+situations se reproduisent.
+</p>
+ 
+</div>
+ 
+</section>
+ 
+<section class="section container actions">
+ 
+<h2>Nos revendications</h2>
+ 
+<ul>
+ 
+<li>
+Recrutement rapide sur les postes vacants.
+</li>
+ 
+<li>
+Anticipation des départs à la retraite.
+</li>
+ 
+<li>
+Renforcement de l'accompagnement des nouveaux arrivants.
+</li>
+ 
+<li>
+Transparence sur les effectifs réels.
+</li>
+ 
+</ul>
+ 
+</section>
+ 
+<section class="cta">
+ 
+<h2>Votre avis nous intéresse</h2>
+ 
+<p>
+Remontez vos difficultés ou vos propositions à vos représentants CFDT.
+</p>
+ 
+<br>
+ 
+#Contacter la CFDT</a>
+ 
+#Adhérer</a>
+ 
+</section>
+ 
+<footer>
+ 
+<h3>CFDT Cattenom</h3>
+ 
+<p>
+Une information claire, des revendications concrètes.
+</p>
+ 
+<br>
+ 
+<small>
+© 2026 CFDT Cattenom
+</small>
+ 
+</footer>
+ 
+</body>
+</html>
