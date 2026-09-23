@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parlons CSP - Septembre 2026</title>
+ 
+<style>
+:root{
+--cfdt-orange:#ff5a00;
+--cfdt-blue:#36a8bd;
+--cfdt-dark:#1f2937;
+--cfdt-light:#f5f7fa;
+}
+ 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+ 
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:var(--cfdt-light);
+color:#333;
+line-height:1.6;
+}
+ 
+header{
+background:linear-gradient(135deg,var(--cfdt-orange),#ff8c42);
+color:white;
+padding:40px 20px;
+text-align:center;
+}
+ 
+header h1{
+font-size:3rem;
+}
+ 
+header p{
+font-size:1.2rem;
+}
+ 
+.container{
+max-width:1200px;
+margin:auto;
+padding:30px;
+}
+ 
+.section{
+background:white;
+padding:30px;
+margin-bottom:25px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+ 
+h2{
+color:var(--cfdt-orange);
+margin-bottom:15px;
+}
+ 
+.highlight{
+color:var(--cfdt-blue);
+font-weight:bold;
+}
+ 
+.info-box{
+background:#eef8fb;
+border-left:5px solid var(--cfdt-blue);
+padding:20px;
+margin:20px 0;
+}
+ 
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+ 
+.card{
+background:white;
+border-top:5px solid var(--cfdt-orange);
+padding:25px;
+border-radius:10px;
+text-align:center;
+}
+ 
+.card .number{
+font-size:3rem;
+font-weight:bold;
+color:var(--cfdt-orange);
+}
+ 
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+ 
+th{
+background:var(--cfdt-orange);
+color:white;
+}
+ 
+th,td{
+padding:10px;
+border:1px solid #ddd;
+text-align:left;
+}
+ 
+tr:nth-child(even){
+background:#f9f9f9;
+}
+ 
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:25px;
+}
+</style>
+</head>
+ 
+<body>
+ 
+<header>
+<h1>Parlons CSP</h1>
+<p>Commission Secondaire Paritaire - Septembre 2026</p>
+</header>
+ 
+<div class="container">
+ 
+<section class="section">
+<h2>Pourquoi ce document ?</h2>
+ 
+<p>
+Suite à une évolution des règles de diffusion des comptes-rendus CSP,
+la CFDT Cattenom souhaite continuer à informer les salariés à travers
+des indicateurs chiffrés, des informations de reconnaissance et des
+résultats de CSP.
+</p>
+</section>
+ 
+<section class="section">
+<h2>Admission au stage</h2>
+ 
+<div class="stats">
+ 
+<div class="card">
+<div class="number">19</div>
+<p>Salariés admis au stage</p>
+</div>
+ 
+<div class="card">
+<div class="number">15</div>
+<p>Titularisations</p>
+</div>
+ 
+</div>
+ 
+<div class="info-box">
+Les périodes d'apprentissage ou de professionnalisation peuvent,
+sous certaines conditions, être prises en compte dans le calcul
+de la période de stage.
+</div>
+ 
+</section>
+ 
+<section class="section">
+<h2>Préparer votre parcours professionnel</h2>
+ 
+<ul>
+<li>Accompagnement des nouveaux arrivants</li>
+<li>Aide à la compréhension de la rémunération</li>
+<li>Préparation des EAP</li>
+<li>Conseil sur les évolutions professionnelles</li>
+<li>Préparation aux jurys et mobilités</li>
+</ul>
+</section>
+ 
+<section class="section">
+<h2>Publication des postes</h2>
+ 
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Emploi</th>
+<th>Référence</th>
+<th>Résultat</th>
+<th>Date d'effet</th>
+</tr>
+</thead>
+ 
+<tbody>
+ 
+<tr>
+<td>AEI</td>
+<td>Haute maîtrise d'intervention</td>
+<td>26-12147.01</td>
+<td>Candidature retenue</td>
+<td>01/10/2026</td>
+</tr>
+ 
+<tr>
+<td>MTE</td>
+<td>Technicien</td>
+<td>26-12322.01</td>
+<td>Candidature retenue</td>
+<td>01/12/2026</td>
+</tr>
+ 
+<tr>
+<td>CONDUITE</td>
+<td>Pilote de tranche</td>
+<td>26-12611.01</td>
+<td>Candidature retenue</td>
+<td>01/01/2026</td>
+</tr>
+ 
+</tbody>
+</table>
+ 
+</section>
+ 
+<section class="section">
+ 
+<h2>Votre interlocutrice CFDT CSP</h2>
+ 
+<p>
+<strong>Laura SERRA</strong><br>
+📧 Laura.serra@edf.fr<br>
+📱 06 88 12 29 47
+</p>
+ 
+</section>
+ 
+</div>
+ 
+<footer>
+CFDT Cattenom • Parlons CSP • Septembre 2026
+</footer>
+ 
+</body>
+</html>
